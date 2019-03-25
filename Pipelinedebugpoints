@@ -1,0 +1,14 @@
+Pipeline debug stack.
+
+function module SXMS_ASYNC_EXEC = > SXMS_SYNC_EXEC => cl_xms_exec=>sync_exec
+
+307:      feh = lv_xms_main_ref->call_pipeline_sync( ).
+
+
+CL_XMS_MAIN=>CALL_PIPELINE_SYNC
+
+* Begin of pipeline debuugging
+
+     LOOP AT lt_pl_element INTO ls_pl_element.
+
+
